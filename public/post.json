@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1001,
+    "title": "Login issue",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still face the same issue.",
+    "customer": "Rahim Ahmed",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-01-05"
+  },
+  {
+    "id": 1002,
+    "title": "Payment failed",
+    "description": "Customer reports that the payment fails during checkout. They attempted multiple cards but the transaction does not complete.",
+    "customer": "Karim Hasan",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2025-01-06"
+  },
+  {
+    "id": 1003,
+    "title": "UI alignment issue",
+    "description": "Customer noticed that buttons overlap on the mobile screen, making it difficult to click the correct option.",
+    "customer": "Nusrat Jahan",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-01-07"
+  },
+  {
+    "id": 1004,
+    "title": "Slow page loading",
+    "description": "Customer experiences very slow loading on the dashboard page. Sometimes the page takes more than a minute to fully load.",
+    "customer": "Sabbir Hossain",
+    "priority": "HIGH PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2025-01-08"
+  },
+  {
+    "id": 1005,
+    "title": "Password reset not working",
+    "description": "Customer states that they requested a password reset but did not receive any email even after checking spam folders.",
+    "customer": "Ayesha Akter",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Resolved",
+    "createdAt": "2025-01-09"
+  },
+  {
+    "id": 1006,
+    "title": "Profile update error",
+    "description": "Customer is unable to save profile changes. An error message appears every time they try to update their information.",
+    "customer": "Imran Khan",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-01-10"
+  },
+  {
+    "id": 1007,
+    "title": "Notification not sent",
+    "description": "Customer reports that email notifications are not being delivered even though notification settings are enabled.",
+    "customer": "Farhana Rahman",
+    "priority": "HIGH PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2025-01-11"
+  },
+  {
+    "id": 1008,
+    "title": "Search not working",
+    "description": "Customer says the search feature returns no results even when searching for valid and existing data.",
+    "customer": "Tanvir Islam",
+    "priority": "LOW PRIORITY",
+    "status": "Resolved",
+    "createdAt": "2025-01-12"
+  },
+  {
+    "id": 1009,
+    "title": "Data export failed",
+    "description": "Customer attempted to export data as a CSV file, but the downloaded file appears corrupted and cannot be opened.",
+    "customer": "Mehedi Hasan",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-01-13"
+  },
+  {
+    "id": 1010,
+    "title": "Account suspension issue",
+    "description": "Customer claims their account was suspended unexpectedly despite following all platform rules and policies.",
+    "customer": "Shila Begum",
+    "priority": "HIGH PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2025-01-14"
+  }
+]
