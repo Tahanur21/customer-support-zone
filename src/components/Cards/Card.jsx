@@ -6,9 +6,9 @@ const Card = ({ post, handleSelect }) => {
   return (
     <div
       onClick={() => handleSelect(post, id)}
-      className="card bg-base-100 shadow-sm hover:shadow-md transition cursor-pointer"
+      className="card bg-base-100 shadow-sm hover:shadow-md transition cursor-pointer h-full"
     >
-      <div className="card-body space-y-3 p-4 sm:p-5">
+      <div className="card-body flex flex-col justify-between space-y-3 p-4 sm:p-5 h-full">
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
           <h2 className="card-title text-lg sm:text-xl md:text-[22px] text-[#001931]">
             {title}
@@ -32,8 +32,8 @@ const Card = ({ post, handleSelect }) => {
           </button>
         </div>
 
-        <div>
-          <p className="text-[#627382] text-sm sm:text-[16px] leading-relaxed">
+        <div className="flex-grow">
+          <p className="text-[#627382] text-sm sm:text-[16px] line-clamp-3">
             {description}
           </p>
         </div>
@@ -63,8 +63,6 @@ const Card = ({ post, handleSelect }) => {
             </div>
           </div>
         </div>
-
-        <div className="card-actions"></div>
       </div>
     </div>
   );

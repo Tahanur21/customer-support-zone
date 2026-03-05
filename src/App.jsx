@@ -54,7 +54,7 @@ function App() {
                handleSelect={handleSelect}
                />
             </div>
-            <div className="col-span-1">
+            <div className="col-span-2 lg:col-span-1">
               <Selects
                 selects={selects}
                 handleCompleteItem={handleCompleteItem}
