@@ -3,7 +3,7 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-gray-300 px-10 py-12 mt-10">
+    <footer className="bg-black text-gray-300 px-10 py-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-10 border-b pb-10">
 
         <div className="space-y-4">
