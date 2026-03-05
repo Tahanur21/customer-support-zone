@@ -1,7 +1,7 @@
 const Header = ({handleTickets,posts}) => {
   return (
     <div className="flex justify-between items-center ">
-      <h1 className="font-bold text-3xl cursor-pointer">Customer Zone</h1>
+      <h1 className="font-bold text-3xl cursor-pointer">Customer Support</h1>
       <div className="hidden lg:inline-block">
         <ul className="flex items-center gap-6 text-xl font-light">
           <li className="cursor-pointer hover:text-gray-400">Home</li>
