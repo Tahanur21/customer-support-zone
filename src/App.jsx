@@ -65,7 +65,7 @@ function App() {
         <div className="bg-stone-100">
           <div className="max-w-8xl mx-auto px-10 py-5">
             <Bannars selects={selects} complete={complete} />
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
               <div className="col-span-2 grid grid-cols-2">
                 <Cards posts={posts} handleSelect={handleSelect} />
               </div>
