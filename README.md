@@ -33,6 +33,5 @@ State can be shared between components by lifting the state up to their common p
 Answer:
 Event handling in React is done by attaching event handlers to elements using JSX. Events are written in camelCase, and a function is passed as the event handler.
 
-Example: <button onClick={handleClick}>Click Me</button>
 
 Here onClick is the event and handleClick is the function that will run when the button is clicked.
